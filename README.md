@@ -26,5 +26,5 @@ const width = 1077; // Desired width of the new images.
 ## Step 3 - Run and witness the magick
 
 ```sh
-  $ node index.js
+$ node index.js
 ```
