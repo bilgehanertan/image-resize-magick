@@ -1,13 +1,22 @@
 {
-  "name": "imres",
+  "name": "image-resize-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Image Resize App with the help of ImageMagick lib",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilgehanertan/image-resize-magick"
+  },
+  "keywords": [
+    "image-resize",
+    "imagemagick",
+    "gm"
+  ],
+  "author": "Murat Bilgehan Ertan <mbilgehan@sabanciuniv.edu>",
+  "homepage": "https://github.com/bilgehanertan/image-resize-magick#readme",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.1",
