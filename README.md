@@ -15,7 +15,7 @@ $ git clone https://github.com/bilgehanertan/image-resize-magick
     In index.js,
     ```node.js
     const inputDir = "inputPathDir"; // Input directory relative path, which contains all images.
-    const outputDir = "outPathDir"; // Output directory relative path, which will be new images written.
+    const outputDir = "outPathDir"; // Output directory relative path, which will be new images written. Note that the app will write images in exact file structure pattern as it is read. Thus, ensure that all folders exist; you can duplicate the original image folder and rename it. The app will overwrite new images into the old images.
     const width = 1077; // Desired width of the new images.
     ```
 
