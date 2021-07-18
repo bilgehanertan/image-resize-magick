@@ -20,7 +20,7 @@ const width = 1077; // Desired width of the new images.
 ```
 
     Note that the app will write images in exact file structure pattern as it is read. 
-    Thus, ensure that all folders exist since the ImageMagick library cannot create folders; 
+    So, ensure that all folders exist since the ImageMagick library cannot create folders; 
     Thus I recommend duplicating the original image folder and rename it. 
     The app will overwrite new images into the old images.
 
